@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String hello(){
-        return "Hello World from Springboot!!";
+        return "hello";
     }
     @GetMapping("/message")
     public String message(Model model) {
